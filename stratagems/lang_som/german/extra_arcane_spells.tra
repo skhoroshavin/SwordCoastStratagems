@@ -1,164 +1,159 @@
-@1="Stormbolts"
-@2="Stormbolts
-(Evocation)
+@1=~Gewitterbolzen~
+@2=~Gewitterbolzen
+(Hervorrufung)
 
-Level: 9
-Range: 0
-Duration: Instant
-Casting Time: 9
-Area of Effect: Enemies within 30ft.
-Saving Throw: Special
+Grad: 9
+Reichweite: Anwender
+Dauer: Sofort
+Zeitaufwand: 9
+Bereich: 9 m Radius
+Rettungswurf: Speziell
 
-Upon casting this spell, the wizard directs a powerful blast of electricity towards all foes within 30 feet. Each bolt inflicts 1d8 points of electrical damage per level of the caster (maximum 20d8) and stuns the target for 1 round. A successful save vs. spell halves the damage and negates the stunning effect."
+Mit diesem Zauber schleudert der Anwender kräftige elektrische Blitze auf alle Gegner im Umkreis von 9 Metern. Jeder Blitz fügt 1W8 Schadenspunkte (elektrisch) pro Stufe des Anwenders zu (maximal 20W8) und betäubt für 1 Runde. Ein erfolgreicher Rettungswurf gegen Zauber halbiert den Schaden und negiert den Betäubungseffekt.~
 
-@3="Minor Lightning Bolt"
-@4="Minor Lightning Bolt
-(Evocation)
+@3=~Geringerer Blitzstrahl~
+@4=~Geringerer Blitzstrahl
+(Hervorrufung)
 
-Level: 2
-Range: Visual range of the caster
-Duration: Instant
-Casting Time: 2
-Area of Effect: 1 creature
-Saving Throw: 1/2
+Grad: 2
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: 1/2 (gg. Zauber)
 
-Upon casting this spell, the wizard releases a bolt of energy that inflicts 3d6 points of electrical damage to a single creature. The damage increases by 1d6 for every two caster levels above 3rd level, to a maximum of 8d6 at 13th level. A successful Save vs. Spell reduces this damage to half. Unlike the more powerful Lightning Bolt spell, the minor lightning bolt cannot rebound, and injures only its single target."
+Mit diesem Zauber setzt der Anwender einen Blitzstrahl frei, der einem Gegner 3W6 Schadenspunkte verursacht. Der Schaden erhöht sich um 1W6 für je 2 Stufen des Anwenders über der 3. Stufe, bis zu einem Maximum von 8W6 auf der 13. Stufe. Bei einem erfolgreichen Rettungswurf gegen Zauber wird der Schaden halbiert. Im Gegensatz zum mächtigeren Zauber "Blitzstrahl" kann der kleinere Blitz nicht abprallen und verletzt nur ein einzelnes Ziel.~
 
-@5="Stonefist"
-@6="Stonefist
-(Conjuration)
+@5=~Steinfaust~
+@6=~Steinfaust
+(Beschwörung)
 
-Level: 1
-Range: 0
-Duration: 5 rounds/level
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: None
+Grad: 1
+Reichweite: Anwender
+Dauer: 5 Runden pro Stufe
+Zeitaufwand: 1
+Bereich: Anwender
+Rettungswurf: Nein
 
-When this spell is cast, the caster calls up a small Earth Elemental and merges <PRO_HISHER> form with it, gaining a portion of its strength and resilience. As long as the spell is in effect, the caster receives a +2 bonus to Armor Class. The elemental energies can be discharged at any time in a powerful punch, directed at any creature adjacent to the caster. The punch automatically hits and does 1d6 points of crushing damage plus 1d6 per two levels (to a maximum of 6d6 at 10th level), and the target must make a save vs. spell or be stunned for 1 round. Discharging the spell in this way ends it. The punch does not count as a magical weapon."
+Der Anwender ruft einen niederen Erdelementar herbei und verschmilzt mit ihm, wodurch er einen Teil seiner Stärke und Zähigkeit erhält. Solange der Zauber wirkt, erhält der Anwender einen Bonus von +2 auf seine Rüstungsklasse. Die Elementarenergien können jederzeit in einem mächtigen Schlag entladen werden, der sich gegen ein Wesen in der Nähe des Anwenders richtet. Der Schlag trifft automatisch und verursacht 1W6 Schadenspunkte plus 1W6 je zwei Stufen (bis zu einem Maximum von 6W6 auf der 10. Stufe), und das Ziel muss einen Rettungswurf gegen Zauber bestehen oder wird für 1 Runde betäubt. Die Entladung beendet den Zauber. Der Schlag ist keine magische Waffe.~
 
-@7="Stone Fist"
+@7=~Steinfaust~
 
-@8="You are currently channelling the power of a minor earth elemental.
+@8=~Du lenkst gerade die Kraft eines niederen Erdelementars.
 
-STATISTICS:
+EIGENSCHAFTEN:
 
-Equipped abilities:
-– Armor Class: +2
+RK-Bonus: -2
+ETW0: Trifft automatisch
+Schaden: 1W6 (Wucht) + 1W6 pro 2 Stufen (maximum 6d6)
+Initiativefaktor: 0
+Spezial: Der Zauber endet, sobald ein Angriff ausgeführt wird
 
-THAC0: Hits automatically
-Damage: 1d6 + 1d6 per two levels (maximum 6d6)
-Damage type: crushing
-Speed Factor: 0
-Special: the spell ends once you make an attack
+Gewicht: 0~
+@9=~Kieselstein zu Felsbrocken~
+@10=~Kieselstein zu Felsbrocken
+(Veränderung)
 
-Weight: 0"
-@9="Turn Pebble to Boulder"
-@10="Turn Pebble to Boulder
-(Alteration)
+Grad: 3
+Reichweite: Anwender
+Dauer: Speziell
+Zeitaufwand: 3
+Bereich: Anwender
+Rettungswurf: Nein
 
-Level: 3
-Range: 0
-Duration: Permanent until thrown or dispelled
-Casting Time: 3
-Area of Effect: The caster
-Saving Throw: None
+Der Anwender verzaubert einen winzigen Kieselstein so dass er, wenn er auf einen Gegner geschleudert wird, sich vergrößert und beschleunigt, und so zu einem tödlichen Felsbrocken wird, der 3W8 Schadenspunkte (Wucht) verursacht, wenn er sein Ziel trifft. Der Felsbrocken hat einen ETW0-Bonus von +1 pro Stufe des Anwenders und kann die Wesen verwunden, die nur dursch Waffen +2 oder besser verwundert werden können. Menschengroße und kleinere Wesen, die vom Felsbrocken getroffen werden, werden durch die Wucht des Aufpralls zu Boden geschleudert.
 
-The caster enchants a tiny pebble so that when hurled at an enemy, it grows and increases in speed, becoming a deadly boulder that inflicts 3d8 points of crushing damage if it hits its target. The boulder has an attack bonus of +1 per level of the caster, and can affect protected creatures as if it were a +2 weapon. Human-size or smaller creatures struck by the boulder will be knocked to the ground by the force of the impact.
+Der Anwender kann alle drei Stufen über Stufe 5 einen weiteren Kieselstein verzaubern, bis zu einem Maximum von sechs Kieselsteinen auf Stufe 20.~
+@11=~Kieselstein~
+@12=~Dieser Kieselstein ist verzaubert und verwandelt sich im Flug in einen Felsbrocken.
 
-The caster may enchant one further pebble per three levels above 5th, to a maximum of six pebbles at level 20."
-@11="Pebble"
-@12="This pebble is enchanted to transform into a boulder in flight.
+EIGENSCHAFTEN:
 
-STATISTICS:
+ETW0-Bonus: -1 pro Stufe des Anwenders (maximal 20)
+Schaden: 3W8 (Wucht)
+Initiativefaktor: 0
 
-THAC0: + caster level (max.20)
-Damage: 3d8
-Damage type: Crushing
-Speed Factor: 0
+Gewicht: 0~
+@13=~Veridons Eisstrahl~
+@14=~Veridons Eisstrahl
+(Hervorrufung)
 
-Weight: 0"
-@13="Veridon's Icy Ray"
-@14="Veridon's Icy Ray
-(Evocation)
+Grad: 9
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 3
+Bereich: 18 m Linie
+Rettungswurf: Speziell
 
-Level: 9
-Range: Visual range of the caster
-Duration: Instant
-Casting Time: 3
-Area of Effect: 60 ft. line
-Saving Throw: Special
-
-A blue-white ray of freezing air and ice springs from the caster's hand. The ray inflicts 1d8 points of cold damage per level of the caster to any creature caught in the ray, and freezes the creature in place for one round. A successful save vs. spell at a -2 penalty halves the damage and negates the freezing effect."
-@15="Frozen in place"
-@16="No longer frozen"
+Aus der Hand des Anwenders entspringt ein weißblauer Strahl gefrierender Luft und Eis. Der Strahl fügt jedem Wesen, das darin gerät, 1W8 Schadenspunkte (Kälte) pro Stufe des Anwenders zu und friert das Wesen eine Runde lang an Ort und Stelle ein. Ein erfolgreicher Rettungswurf gegen Zauber mit einem Malus von -2 halbiert den Schaden und negiert den Einfriereffekt.~
+@15=~Eingefrohren~
+@16=~Nicht mehr gefrohren~
 
 
-@17="Telekinetic Storm"
-@18="Telekinetic Storm
-(Alteration)
+@17=~Telekinetisches Gewitter~
+@18=~Telekinetisches Gewitter
+(Veränderung)
 
-Level: 8
-Range: Visual range of the caster
-Duration: Instant
-Casting Time: 8
-Area of Effect: 15-ft. radius
-Saving Throw: 1/2
+Grad: 8
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 8
+Bereich: 4,5 m Radius
+Rettungswurf: 1/2 (gg. Zauber)
 
-A storm of intense telekinetic energy erupts at a point specified by the caster. Allies in the storm are unaffected, but the caster's enemies are blasted and torn by the discharge, taking 1d6 points of magic damage per level with a saving throw for half damage."
+Ein gewaltiger Sturm telekinetischer Energie entlädt sich an einem vom Anwender bestimmten Ort. Verbündete werden von dem Sturm nicht getroffen, aber Gegner werden von der Entladung herumgeschleudert und zerfetzt, wobei sie 1W6 Schadenpunkte pro Stufe des Anwenders erleiden.~
 
-@19="Combust"
-@20="Combust
-(Evocation)
+@19=~Verbrennung~
+@20=~Verbrennung
+(Hervorrufung)
 
-Level: 2
-Range: Touch
-Duration: special
-Casting Time: 2
-Area of Effect: 1 creature
-Saving Throw: special
+Grad: 2
+Reichweite: Berührung
+Dauer: Speziell
+Zeitaufwand: 2
+Bereich: 1 Wesen
+Rettungswurf: Speziell
 
-This spell makes a combustible creature burst into flame.
+Dieser Zauber lässt ein brennbares Wesen in Flammen aufgehen.
 
-If the target is a creature, the initial eruption of flame causes 3d6 points of fire damage, plus an additional 1d6 points per two caster levels (maximum 8d6) with no saving throw. Further, the creature must make a save vs. spells or catch fire, taking a further 1d8 damage per round. The creature receives a further saving throw at the end of each round to extinguish the flame."
+Der anfängliche Flammenausbruch verursacht 3W6 Schadenspunkte durch Feuer, zuzüglich 1W6 Schadenspunkte je zwei Stufen des Anwenders (maximal 8W6), ohne dass ein Rettungswurf möglich ist. Außerdem muss das Wesen einen Rettungswurf gegen Zauber bestehen oder weitere 1W8 Schadenspunkte pro Runde erleiden. Das Wesen erhält am Ende jeder Runde einen weiteren Rettungswurf, um die Flamme zu löschen.~
 
-@21="Ice Knife"
-@22="Ice Knife
-(Evocation)
+@21=~Eismesser~
+@22=~Eismesser
+(Hervorrufung)
 
-Level: 1
-Range: Visual range of the caster
-Duration: Instant
-Casting Time: 1
-Area of Effect: 5-ft. radius around 1 creature
-Saving Throw: special
+Grad: 1
+Reichweite: Sichtweite des Anwenders
+Dauer: Sofort
+Zeitaufwand: 1
+Bereich: 1 Wesen + 1.5 m Radius
+Rettungswurf: Speziell
 
-Upon casting this spell, a shard of elemental ice appears in the caster's hand and flies unerringly to its target. The shard inflicts 1d4 piercing damage and then bursts in a 5-foot-radius spray of ice. All creatures caught in the spray take 1d4 points of cold damage, increasing by 1d4 per two levels of the caster to a maximum of 5d4 at 9th level, and may save vs. spells for half damage."
+Beim Wirken dieses Zaubers erscheint eine Eisscherbe in der Hand des Anwenders und fliegt unfehlbar auf sein Ziel zu. Die Scherbe richtet 1W4 Schadenspunkte (Stich) an, und zerplatzt dann in einer Eiswolke mit dem Radius von 1,5 Metern. Alle Wesen, die in den Wirkungsbereich geraten, erleiden 1W4 Schadenspunkte (Kälte), erhöht um 1W4 pro zwei Stufen des Anwenders, bis zu einem Maximum von 5W4 auf der 9. Stufe, wobei ein erfolgreicher Rettungswurf gegen Zauber den Schaden halbiert.~
 
-@41="Telekinesis"
-@42="Telekinesis
-(Alteration)
+@41=~Telekinese~
+@42=~Telekinese
+(Veränderung)
 
-Level: 5
-Range: Visual range of the caster
-Duration: 3 seconds
-Casting Time: 5
-Area of Effect: All enemies within 5ft. of target creature
-Saving Throw: Neg.
+Grad: 5
+Reichweite: Sichtweite des Anwenders
+Dauer: 3 Sekunden
+Zeitaufwand: 5
+Bereich: 1 Wesen + 1.5 m Radius
+Rettungswurf: Ja (gg. Zauber)
 
-By means of this spell, the caster can telekinetically hurl all hostile creatures within a small region directly away from <PRO_HIMHER>self at high speed, inflicting 3d8 points of crushing damage and knocking the creatures unconscious for a few seconds, unless they save vs. spells at a -2 penalty. The spell is ineffective against any creature of ogre size or larger, and - due to the interaction of the telekinetic field with surrounding solid matter - cannot be used to propel creatures off cliffs or into impassable terrain."
+Mit diesem Zauber kann der Anwender alle Gegner in einem kleinen Umkreis telekinetisch mit hoher Geschwindigkeit direkt von sich wegschleudern, wobei sie 3W8 Schaden (Wucht) erleiden. Dazu werden sie für einige Sekunden bewusstlos, wenn sie einen Rettungswurf gegen Zauber mit einem Malus von -2 nicht schaffen. Der Zauber ist gegen Wesen ab Ogergröße wirkungslos und kann aufgrund der Wechselwirkung zwischen dem telekinetischen Feld und der umgebenden festen Materie nicht dazu verwendet werden, Wesen von Klippen oder in unwegsames Gelände zu schleudern.~
 
-@50="Create Boneguard"
-@51="Create Boneguard
-(Necromancy)
+@50=~Knochenwächter Beschwören~
+@51=~Knochenwächter Beschwören
+(Nekromantie)
 
-Level: 9
-Range: 20 ft.
-Duration: 8 rounds + 1 round/level
-Casting Time: 9
-Area of Effect: Special
-Saving Throw: None
+Grad: 9
+Reichweite: 6 m
+Dauer: 8 Runden + 1 Runde pro Stufe
+Zeitaufwand: 9
+Bereich: Speziell
+Rettungswurf: Nein
 
-With the casting of this spell, the wizard calls forth 1d2 boneguards. These undead monstrosities appear within spell range and can be commanded to attack the caster's opponents until the spell duration expires or the monsters are destoyed."
-@52="Boneguard"
-
+Mit diesem Zauber beschwört der Anwender 1W2 Knochenwächter. Diese untoten Monströsitäten erscheinen in Reichweite des Zaubers und können befohlen werden, die Gegner anzugreifen, bis sie vernichtet werden, oder der Zauber abläuft.~
+@52=~Knochenwächter~
